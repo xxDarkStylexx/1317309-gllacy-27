@@ -10,15 +10,41 @@
         <img src="img/logo.svg" alt="gllacy" class="gllacy" width="154" height="64">
         <ul>
           <li><a href="html/catalog.html">Каталог</a></li>
+            <ul class="visually-hidden">
+              <li>Новинки <hr></li>
+              <li><a href="html/catalog.html">Сливочное</a></li>
+              <li><a href="#">Щербеты</a></li>
+              <li><a href="#">Фруктовый лед</a></li>
+              <li><a href="#">Мелорин</a></li>
+            </ul>
           <li><a href="#">Доставка и оплата</a></li>
           <li><a href="#">О Компании</a></li>
         </ul>
         <ul>
           <li>
-            <button type="button">Поиск</button> <!--Конпка поиска-->
+            <button type="submit">Поиск</button> <!--Конпка поиска-->
+            <form class="visually-hidden" action="" method="GET">
+              <div>
+                <label class="visually-hidden" for="search">Поиск</label>
+                <input type="search" name="search" id="search" placeholder="Что ищем?">
+              </div>
+            </form>
           </li>
           <li>
-            <button type="button">Войти</button> <!--Кнопка личного кабинета-->
+            <button type="button">Вход</button> <!--Кнопка личного кабинета-->
+            <form class="visually-hidden" action="" method="POST">
+              <div>
+                <label class="visually-hidden" for="email">Логин</label>
+                <input type="email" name="email" id="email" placeholder="email@example.com">
+              </div>
+              <div>
+                <label class="visually-hidden" for="password">Пароль</label>
+                <input type="password" name="password" id="password" placeholder="Пароль">
+              </div>
+              <a href="#">Забыли пароль?</a>
+              <a href="#">Новая регистрация</a>
+              <button type="submit">Войти</button>
+            </form>
           </li>
           <li>
             <button type="button">Пусто</button> <!--Кнопка корзины-->
@@ -34,10 +60,10 @@
     </header>
     <main>
 
-      <h1>Магазин Глейси</h1> 
+      <h1 class="visually-hidden">Магазин Глейси</h1> 
 
       <section>
-        <h2>Слайдер с мороженным</h2>
+        <h2 class="visually-hidden">Слайдер с мороженным</h2>
         <div>
           <h2>Крем-брюле и пломбир с малиновым джемом</h2>
           <img src="img/slide1.jpg" alt="Крем-брюле и пломбир с малиновым джемом" width="1065px" height="859px">
@@ -66,7 +92,7 @@
       </section>
 
       <section>
-        <h2>Список мороженного</h2>
+        <h2 class="visually-hidden">Список мороженного</h2>
         <ul>
           <li>
             <h3>Сливочное с апельсиновым джемом и цитрусовой стружкой</h3>
@@ -97,7 +123,7 @@
       
 
       <section>
-        <h2>Преимущества</h2>
+        <h2 class="visually-hidden">Преимущества</h2>
         <p>Магазин Глэйси — это онлайн- и офлайн-магазин по продаже мороженого собственного производства на развес</p>
         <ul>
           <li>
@@ -116,24 +142,24 @@
       </section>
 
       <article>
-        <h2>Блог</h2>
+        <h2 class="visually-hidden">Блог</h2>
         <p>Новое в нашем блоге</p>
         <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
       </article>
 
       <section>
-        <h2>Рекламная рассылка</h2>
+        <h2 class="visually-hidden">Рекламная рассылка</h2>
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
         <!--Тут будет форма-->
       </section>
 
       <section>
-        <h2>Карта</h2>
+        <h2 class="visually-hidden">Карта</h2>
         <img src="img/map.jpg" alt="Карта" width="1302px" height="430px">
       </section> 
 
       <section>
-        <h2>Контактная информация</h2>
+        <h2 class="visually-hidden">Контактная информация</h2>
         <p>
           Адрес главного офиса<br>
           и офлайн-магазина:
@@ -176,5 +202,24 @@
       </a>
       <p>Сделано в <a href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a> © 2019</p>
     </footer>
+
+    <section class="visually-hidden">
+      <h2>Мы обязательно вам ответим!</h2>
+      <form action="" method="POST">
+        <div>
+          <label class="visually-hidden" for="name">Имя</label>
+          <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+        </div>
+        <div>
+          <label class="visually-hidden" for="communication-email">Почта</label>
+          <input type="email" name="email" id="communication-email">
+        </div>
+        <div>
+          <label class="visually-hidden" for="comment">Комментарий</label>
+          <textarea name="comment" id="comment" cols="30" rows="10" placeholder="В свободной форме"></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
   </body>
 </html>

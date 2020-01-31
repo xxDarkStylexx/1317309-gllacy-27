@@ -24,6 +24,28 @@
         </li>
         <li>
           <button type="button">2 товара</button> <!--Кнопка корзины-->
+          <div>
+            <div>
+              <!--Тут будет крестик-->
+              <div><!--Тут будет фоновая картинка--></div>
+              <p>Пломбир с апельсиновым джемом</p>
+              <P>1,5 кг х<span>200 руб</span></P>
+              <p>300 руб.</p>
+            </div>
+            <div>
+              <!--Тут будет крестик-->
+              <div><!--Тут будет фоновая картинка--></div>
+              <p>Клубничный пломбир с присыпкой из белого шоколада</p>
+              <P>1,5 кг х<span>300 руб.</span></P>
+              <p>450 руб.</p>
+            </div>
+            <hr>
+            <p>
+              <span>Итого:</span>
+              <span>750 руб.</span>
+            </p>
+            <button type="submit">Оформить заказ</button>
+          </div>
         </li>
       </ul>
     </nav> 
@@ -45,7 +67,48 @@
 
     <section>
       <h2>Фильтр мороженного</h2>
-      <!--Здесь будет форма фильтра-->
+      <form action="" method="GET">
+        <div>
+          <label for="sort">Сортировка:</label>
+          <select name="sort" id="sort" multiple>
+            <option value="по популярности" selected>по популярности</option>
+            <option value="сначала недорогие">сначала недорогие</option>
+            <option value="сначала дорогие">сначала дорогие</option>
+            <option value="по жирности">по жирности</option>
+          </select>
+        </div>
+        <div>
+          <label for="range">Цена: 100 руб. – 500 руб.</label>
+          <input type="range" name="range" id="range" min="100" max="500">
+        </div>
+        <div>
+          <label>Жирность:
+            <input type="radio" name="fatness" id="choice1" value="0%">
+            <label for="choice1">0%</label>
+            <input type="radio" name="fatness" id="choice2" value="до 10%" checked>
+            <label for="choice2">до 10%</label>
+            <input type="radio" name="fatness" id="choice3" value="до 30%">
+            <label for="choice3">до 30%</label>
+            <input type="radio" name="fatness" id="choice4" value="выше 30%">
+            <label for="choice4">выше 30%</label>
+          </label>
+        </div>
+        <div>
+          <label>Наполнители:
+            <input type="checkbox" name="chocolate" id="chocolate" checked>
+            <label for="chocolate">шоколадные</label>
+            <input type="checkbox" name="powdered sugar" id="powdered sugar" checked>
+            <label for="powdered sugar">сахарные присыпки</label>
+            <input type="checkbox" name="fruit" id="fruit">
+            <label for="fruit">фрукты</label>
+            <input type="checkbox" name="syrop" id="syrop">
+            <label for="syrop">сиропы</label>
+            <input type="checkbox" name="jam" id="jam">
+            <label for="jam">джемы</label>
+          </label>
+        </div>
+        <button type="submit">Применить</button>
+      </form>
 
     </section>
   
