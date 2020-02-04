@@ -1,3 +1,169 @@
 body {
+    margin: 0;
+    padding: 0;
+
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color:  #ffffff;
+
+    background-color: #849d8f;
+}
+
+.visually-hidden{
+    display: none;
+}
+
+.form-field {
+    font-size: 16px;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 400; 
+    color: #999999;
+
+    background-color: #ffffff;
+}
+
+.button {
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 700; 
+    color: #fefefe;
+
+    background-color: #e74a35;
+}
+
+.main-navigation {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: left;
+    color:  #ffffff;
+
+    background-color: #849d8f;
+}
+
+.site-navigation,
+.user-navigation,
+.icecream-catalog {
+    list-style: none;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+    color: #333333;
+    text-decoration: none;
+
+    background-color: #f7f6f3;
+}
+
+.time-visiting {
+    font-size: 14px;
+    text-align: right;
+    line-height: 16px;
+    font-weight: 700;
+
+    background-color: #849d8f;
+}
+
+.telephone {
+    font-size: 22px;
+    text-align: right;
+    line-height: 24px;
+    font-weight: 700;
+
+    background-color: #849d8f;
+}
+
+.advantages {
+    background-color: #8996a6;
+    background-image: url(../img/wafllefon.jpg); 
+    background-repeat: no-repeat;
+}
+
+.advantages p {
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 500; 
+    color: #323232;
+}
+.advantages ul {
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 400; 
+    color: #323232;
+
+    list-style: none;
+}
+
+.blog {
+    background-color: #8996a6;
+    background-image: url(../img/strawberryfon.jpg);
+    background-repeat: no-repeat;
+}
+
+.blog p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 500; 
+    color: #323232;
+}
+
+.blog a {
+    font-size: 24px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 700; 
+    color: #323232;
+}
+.promotional {
+    background-color: #8996a6;
+    background-image: url(../img/bg-post.svg);
+    background-repeat: no-repeat;
+}
+
+.promotional-form {
+    background-color: #f8f7f4;
+}
+
+.promotional-form p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 400; 
+    color: #5a5a5a;
+}
+
+.main-footer a {
+    color: #ffffff;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.footer-contacts ul {
+    font-size: 13px;
+    text-align: left;
+    line-height: 18px;
+    font-weight: 400; 
+    color: #ffffff;
+
+    list-style: none;
+}
+
+.footer-contacts li:first-child {
+    font-weight: 700; 
+}
+
+.footer-copyright {
+    font-size: 12px;
+    text-align: left;
+    line-height: 18px;
+    font-weight: 400; 
+    color: #fefefe;
 }
