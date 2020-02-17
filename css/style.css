@@ -223,3 +223,89 @@ h1 {
     font-weight: 400; 
     color: #fefefe;
 }
+
+.slider h2 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 60px;
+    font-weight: 700; 
+    color: #ffffff;
+}
+
+.promotion h2 {
+    font-size: 35px;
+    text-align: left;
+    line-height: 41px;
+    font-weight: 700; 
+    color: #ffffff;
+}
+
+.promotion p {
+    font-size: 18px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 700; 
+    color: #ffffff;
+}
+
+.info p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 20px;
+    font-weight: 400; 
+    color: #323232;
+}
+
+.info span {
+    font-size: 18px;
+    text-align: left;
+    line-height: 24px;
+    font-weight: 700; 
+    color: #323232;
+}
+
+.title  {
+    font-size: 35px;
+    text-align: left;
+    line-height: 41px;
+    font-weight: 700; 
+    color: #ffffff;
+}
+
+.icecream-filter .name-filter {
+    font-size: 14px;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 500; 
+    color: #ffffff;
+}
+
+.name-filter label,.sort-list,.filter-button {
+    font-size: 16px;
+    text-align: left;
+    line-height: 18px;
+    font-weight: 500; 
+    color: #ffffff;
+}
+
+.pagination {
+    list-style: none;
+}
+
+.pagination a {
+    font-size: 16px;
+    text-align: right;
+    line-height: 18px;
+    font-weight: 500; 
+    color: #ffffff; 
+    text-decoration: none;
+}
+
+.current-page a {
+    font-size: 16px;
+    text-align: right;
+    line-height: 18px;
+    font-weight: 500; 
+    color: #000000    ; 
+    text-decoration: none;
+}

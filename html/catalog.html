@@ -83,26 +83,26 @@
         <li class="breadcrumbs-current">Сливочное</li>
       </ul>
 
-      <h1>Сливочное мороженное</h1>
+      <h1 class="title">Сливочное мороженное</h1>
 
-      <section>
-        <h2>Фильтр мороженного</h2>
+      <section class="icecream-filter">
+        <h2 class="visually-hidden">Фильтр мороженного</h2>
         <form action="" method="GET">
-          <div>
-            <label for="sort">Сортировка:</label>
-            <select name="sort" id="sort">
+          <div class="sort">
+            <label class="name-filter" for="sort">Сортировка:</label>
+            <select class="sort-list" name="sort" id="sort">
               <option value="по популярности" selected>по популярности</option>
               <option value="сначала недорогие">сначала недорогие</option>
               <option value="сначала дорогие">сначала дорогие</option>
               <option value="по жирности">по жирности</option>
             </select>
           </div>
-          <div>
-            <label for="range">Цена: 100 руб. – 500 руб.</label>
+          <div class="range">
+            <label class="name-filter" for="range">Цена: 100 руб. – 500 руб.</label>
             <input type="range" name="range" id="range" min="100" max="500">
           </div>
-          <div>
-            <label>Жирность:
+          <div class="fatness">
+            <label class="name-filter">Жирность:
               <input type="radio" name="fatness" id="choice1" value="0%">
               <label for="choice1">0%</label>
               <input type="radio" name="fatness" id="choice2" value="до 10%" checked>
@@ -113,8 +113,8 @@
               <label for="choice4">выше 30%</label>
             </label>
           </div>
-          <div>
-            <label>Наполнители:
+          <div class="filler">
+            <label class="name-filter">Наполнители:
               <input type="checkbox" name="chocolate" id="chocolate" checked>
               <label for="chocolate">шоколадные</label>
               <input type="checkbox" name="powdered sugar" id="powdered sugar" checked>
@@ -127,7 +127,7 @@
               <label for="jam">джемы</label>
             </label>
           </div>
-          <button type="submit">Применить</button>
+          <button class="filter-button" type="submit">Применить</button>
         </form>
 
       </section>
@@ -232,9 +232,9 @@
             <span>Р/кг</span>
           </li>
         </ul>
-        <ul>
+        <ul class="pagination">
           <li><a href="#">Предыдущая страница</a></li>
-          <li><a>1</a></li>
+          <li class="current-page"><a>1</a></li>
           <li><a href="#">2</a></li>
           <li><a href="#">3</a></li>
           <li><a href="#">4</a></li>
