@@ -74,6 +74,9 @@ h1 {
     font-weight: 500; 
     color: #ffffff;
 }
+.icecream-catalog img {
+    border-radius: 50%;
+}
 
 .icecream-catalog h3 {
     font-size: 16px;
@@ -91,13 +94,53 @@ h1 {
     color: #ffffff;
 }
 
+.conteiner {
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+.main-header {
+    padding-top: 9px;
+    min-height: 113px;
+}
+
 .main-navigation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
     font-size: 16px;
     line-height: 18px;
     text-align: left;
     color:  #ffffff;
 
     background-color: #849d8f;
+}
+
+.logo {
+    display: flex;
+    width: 154px;
+    height: 64px;
+}
+
+.site-navigation{
+    display: flex;
+    padding-left: 0px;
+}
+.site-navigation li {
+    padding-left: 25px;
+}
+
+.user-navigation {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.user-navigation li {
+    padding-left: 10px;
 }
 
 .site-navigation,
@@ -130,6 +173,22 @@ h1 {
     font-weight: 700;
 
     background-color: #849d8f;
+}
+
+.advantages-conteiner {
+    width: 1146px;
+    min-height: 306px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.advantages-conteiner li{
+    width: 475px;
+    min-height: 61px;
 }
 
 .advantages {
@@ -309,3 +368,4 @@ h1 {
     color: #000000    ; 
     text-decoration: none;
 }
+
